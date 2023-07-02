@@ -31,27 +31,22 @@ import ChatLibrary from "rca-react-chatai";
 
 const YourApp = () => {
 const   [prompt, setPrompt] = useState("");
-  const [response, setResponse] = useState("");
-  const [showModal, setShowModal] = useState(false); // Add state variable to control the modal
+const [response, setResponse] = useState("");
+const [showModal, setShowModal] = useState(false); // Add state variable to control the modal
 
-  const apiKey =  "YOUR_OPENAI_API_KEY";
+const apiKey =  "YOUR_OPENAI_API_KEY";
 
-  const handleResponse = (response) => {
-    setResponse(response);
-  };
-
-
-  return (
-  <div>
-    <ChatLibrary
-      apiKey={apiKey}
-      prompt={prompt}
-      setPrompt={setPrompt}
-      handleResponse={handleResponse}
-      />
-     <div id="response_container" className="response-container"></div>
-    </div>
-  );
+const handleResponse = (response) => {
+setResponse(response);
+};
+<ChatLibrary
+    apiKey={apiKey}
+    prompt={prompt}
+    setPrompt={setPrompt}
+    handleResponse={handleResponse}
+/>
+<div id="response_container" className="response-container"></div>
+</div>
 };
 
 export default App;
