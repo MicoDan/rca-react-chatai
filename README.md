@@ -26,28 +26,10 @@ Once you have imported the ChatLibrary component, you can use it in your applica
 Copy code:
 -----------
 
-import React, { useState } from "react";
-import ChatLibrary from "rca-react-chatai";
 
-const YourApp = () => {
-const   [prompt, setPrompt] = useState("");
-const [response, setResponse] = useState("");
-const [showModal, setShowModal] = useState(false); // Add state variable to control the modal
 
-const apiKey =  "YOUR_OPENAI_API_KEY";
+//from the video link at the bottom copy the constants that I highlighted that are required for this library to function that I stated   .         
 
-const handleResponse = (response) => {
-setResponse(response);
-};
-<ChatLibrary
-    apiKey={apiKey}
-    prompt={prompt}
-    setPrompt={setPrompt}
-    handleResponse={handleResponse}
-/>
-<div id="response_container" className="response-container"></div>
-</div>
-};
 
 export default App;
 
