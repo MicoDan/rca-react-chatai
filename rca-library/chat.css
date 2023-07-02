@@ -1,0 +1,131 @@
+#response_container {
+    /* Existing styles... */
+    margin-top: 17em;
+    height: 40em;
+    font-size: 20px;
+    position: absolute;
+    top: 42.3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 30px;
+    padding-top: 0px;
+    max-width: 100%;
+    overflow-x: scroll;
+    white-space: pre-wrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    outline: none;
+  }
+  
+  /* hides scrollbar */
+  #response_container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .input {
+    /* Existing styles... */
+    background: #fff;
+    width: 300px;
+    height: 50px;
+    border-width: 2px;
+    border-color: grey;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+  }
+  
+  .button {
+    /* Existing styles... */
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: grey;
+    color: #fff;
+  }
+  .form{
+    margin-bottom: 2em;
+  }
+  
+  /* Restyle the button for small screens */
+  @media (max-width: 768px) {
+    .button {
+      width: 100%;
+      border-radius: 25px;
+      margin-top: 10px;
+    }
+  }
+  
+  .button:hover {
+    /* Existing styles... */
+    background-color: #121111;
+  }
+  
+  @keyframes loading {
+    /* Existing styles... */
+  }
+  
+  .loading-indicator {
+    /* Existing styles... */
+    font-size: 20px;
+    animation: loading 1s infinite;
+  }
+  
+  .response-container {
+    /* Existing styles... */
+    background-color: rgb(79, 75, 75);
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  /* Restyle the response container for small screens */
+  @media (max-width: 768px) {
+    .response-container {
+      width: 80%;
+    }
+  }
+  
+  .parent {
+    /* Existing styles... */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Additional styles for small screens */
+  @media (max-width: 768px) {
+    .parent {
+      top: 10%;
+    }
+  }
+  
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust the height as needed */
+    margin-right: 5em;
+  }
+  
+  .loading-indicator {
+    width: 50px;
+    height: 50px;
+    border: 4px solid #fff;
+    border-top: 4px solid grey; /* You can change the color as needed */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 4em;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
