@@ -42,14 +42,14 @@ const   [prompt, setPrompt] = useState("");
 
 
   return (
-    <div>
-      <ChatLibrary
-              apiKey={apiKey}
-              prompt={prompt}
-              setPrompt={setPrompt}
-              handleResponse={handleResponse}
-            />
-            <div id="response_container" className="response-container"></div>
+  <div>
+    <ChatLibrary
+      apiKey={apiKey}
+      prompt={prompt}
+      setPrompt={setPrompt}
+      handleResponse={handleResponse}
+      />
+     <div id="response_container" className="response-container"></div>
     </div>
   );
 };
