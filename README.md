@@ -26,12 +26,16 @@ Once you have imported the ChatLibrary component, you can use it in your applica
 Copy code:
 -----------
 
+link:
+----
+
+https://docs.google.com/document/d/1G1LjGyFXPMajqF8jrWC1nMLjcHixHqzgEK-sXkEfbzw/edit?usp=sharing      
 
 
-//from the video link at the bottom copy the constants that I highlighted that are required for this library to function that I stated   .         
-
-
-export default App;
+!!! WARNING !!!
+------------------------------------------------
+This library only works with vite projects (npx create-vite@latest your_project). If you use create react app it won’t work.
+WE EXCUSE OURSELVES FOR THE INCONVENIENCE AND WE WILL WORK ON IT BECAUSE IT IS STILL IN DEVELOPMENT
 
 
 
