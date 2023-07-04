@@ -83,7 +83,7 @@ Chat-based Interfaces
 --------------------------------------------------
 As it is still being improved day by day , it came from being 50 lines of code to copy to 26 lines of code to copy.
 If you find any issues with the library or have suggestions for improvements, feel free to contribute by opening an issue or submitting a pull request on the GitHub repository.
-Or furthermore you can talk with me on my linkedIN account
+Or furthermore you can talk with me on my linkedIN account : https://www.linkedin.com/in/mico-dan-778732258/
 
 
 
