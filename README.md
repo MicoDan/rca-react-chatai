@@ -33,7 +33,7 @@ const Chat = () => {
   const [response, setResponse] = useState("");
 
 
-const apiKey = "your_own_apiKey or this default one: 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";
+const apiKey = "your_own_apiKey";
 
 
   const handleResponse = (response) => {
